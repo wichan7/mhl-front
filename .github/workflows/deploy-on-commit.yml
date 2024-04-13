@@ -30,4 +30,4 @@ jobs:
 
       - name: deploy
         run: |
-          scp -i ~/private-key.pem -o StrictHostKeyChecking=no -rpv -P 22 ./build/* ec2-user@15.164.233.95:/app/wichan-nginx/html
+          scp -i ~/private-key.pem -o StrictHostKeyChecking=no -rpv -P 22 ./build/* ec2-user@15.164.233.95:/app/wichan-nginx

@@ -9,6 +9,7 @@ const HomePage = () => {
         <Button type="primary" size="large">
           게임 시작
         </Button>
+        ksh
       </Link>
     </div>
   )
